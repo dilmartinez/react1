@@ -1,6 +1,5 @@
-import logo from '../img/logo-rectangular.jpg'
-
-
+import CartWidget from '../CartWidget/CartWidget';
+import logo from '../img/logo-rectangular.jpg';
 
 const NavBar = () => {
     return (
@@ -14,6 +13,7 @@ const NavBar = () => {
                 <li><a href="">Nosotros</a></li>
                 <li><a href="">Registro</a></li>
             </div>
+            <CartWidget />
                        
         </div>
     ) ; 
